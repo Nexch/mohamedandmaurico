@@ -1,0 +1,36 @@
+#header{
+	padding-top: 5px;
+	background-color: hsl(45, 50%, 90%);
+	display: grid;
+	grid-template-columns: 300px 1fr;
+	top: 0;
+	left: 0; 
+}
+
+#header-img{
+	grid-column: 1;
+	width: 100%
+	align-self: center;
+}
+
+#nav-bar{
+	display: flex;
+	align-self: center;
+	margin: 5px;
+}
+
+.nav-link{
+	margin: 5px;
+	color: inherit;
+	text-decoration: inherit;
+}
+
+#video{
+	margin: auto;
+}
+
+#form{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-gap:  10px;
+}
